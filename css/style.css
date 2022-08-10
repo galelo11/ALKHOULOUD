@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.main-logo {
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 9px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+#main-head {
+    height: 60px;
+    background-color: rgb(15, 119, 179);
+    display: flex;
+    text-shadow: 5px 10px 8px black;
+}
+
+#main-head ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 15px 5px 5px 40px;
+}
+
+li {
+    padding: 0px 15px 0px 0px;
+}
+
+a {
+
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px 10px 8px black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(108, 167, 21)
+}
+
+
+.hidden {
+    position: absolute;
+    background-color: rgb(15, 119, 179);
+    margin-top: 10px;
+    width: 170px;
+    display: none;
+}
+
+.hidden a {
+    padding: 10px;
+
+}
+
+
+.mobile-button {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    height: 100px;
+    width: 40px;
+
+}
+
+.mobile-button span {
+    width: 70%;
+    background-color: white;
+    display: block;
+    padding: 3px;
+    margin: 4px;
+}
+
+.mobile-menu {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    display: none;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    background-color: rgb(15, 119, 179);
+    padding: 0px;
+    width: 150px;
+}
+
+.mobile-menu li {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mobile-hidden {
+    display: none;
+    background-color: rgb(15, 119, 179);
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .main-logo {
+        display: none;
+    }
+
+
+
+    ul {
+        padding-left: 5px;
+    }
+
+}
